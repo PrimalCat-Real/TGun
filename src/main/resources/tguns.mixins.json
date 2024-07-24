@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "primalcat.escapefromtempus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+
+		"MixinItemRenderer",
+		"CrossbowItemMixin",
+		"DiamondSwordItemMixin"
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
